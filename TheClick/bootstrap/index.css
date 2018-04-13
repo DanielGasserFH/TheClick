@@ -3,6 +3,39 @@ body {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600; }
+  body .game1, body .game2, body .game3 {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 90%;
+    height: 800px;
+    background: #FFFFFF;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-align: center; }
+  body .score1 {
+    position: absolute;
+    background: #FFFFFF;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    margin: 50px;
+    margin-right: 150px;
+    width: 600px;
+    height: 450px; }
+  body .beschreibung {
+    position: absolute;
+    margin: 50px;
+    background: #FFFFFF;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 1000px;
+    height: 800px; }
+
+.hintergrund {
+  background: url("Bilder/hintergrund.jpg"); }
 
 .loginForm {
   width: 24%;

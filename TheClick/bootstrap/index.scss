@@ -8,7 +8,65 @@ body{
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
+
+                      .game1{
+                        margin: 0 auto;
+                        margin-top: 60px;
+                        width: 90%;
+                        height: 800px;
+                        background: $white;
+                        font-size: 30px;
+                        font-family: "Open Sans";
+                        text-align: center;
+                      }
+
+                      .game2{
+                        @extend .game1;
+                      }
+
+                      .game3{
+                        @extend .game1;
+                      }
+
+                    .score1{
+                      position: absolute;
+                      background: $white;
+                      font-size: 30px;
+                      font-family: "Open Sans";
+                      text-align: center;
+
+                      right: 0;
+                      bottom: 0;
+                      margin: 50px;
+                      margin-right: 150px;
+                      width: 600px;
+                      height: 450px;
+
+
+                    }
+
+                    .beschreibung{
+                      position: absolute;
+                      margin: 50px;
+                      background: $white;
+                      font-size: 30px;
+                      font-family: "Open Sans";
+                      text-align: center;
+
+                      width: 1000px;
+                      height: 800px;
+
+                    }
+
+
+
+
+
  }
+
+.hintergrund{
+  background: url("Bilder/hintergrund.jpg");
+}
 
 .loginForm{
   width: 24%;
@@ -82,3 +140,5 @@ color: $green;
   }
 
 }
+
+
