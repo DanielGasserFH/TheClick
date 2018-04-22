@@ -1,0 +1,90 @@
+body {
+  background: url(Bilder/hintergrund.jpg) no-repeat center center fixed;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600; }
+  body .game1, body .game2, body .game3 {
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 90%;
+    height: 800px;
+    background: #FFFFFF;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-align: center; }
+  body .score1 {
+    position: absolute;
+    background: #FFFFFF;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    margin: 50px;
+    margin-right: 150px;
+    width: 600px;
+    height: 450px; }
+  body .beschreibung {
+    position: absolute;
+    margin: 50px;
+    background: #FFFFFF;
+    font-size: 30px;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 1000px;
+    height: 800px; }
+
+.hintergrund {
+  background: url("Bilder/hintergrund.jpg"); }
+
+.loginForm {
+  width: 24%;
+  position: absolute;
+  top: 200px;
+  left: 250px; }
+  .loginForm h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Verdana; }
+  .loginForm label {
+    font-weight: bold;
+    color: #FFFFFF; }
+  .loginForm .form-check label {
+    color: #FFFFFF;
+    font-size: 12px; }
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 20px; }
+
+.social {
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center; }
+
+.signIn {
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF; }
+
+.netzwerke {
+  width: 500px;
+  margin-bottom: 20px; }
+  .netzwerke img {
+    height: auto; }
+
+.signIn a {
+  color: #00FF00; }
+
+@media only screen and (max-width: 768px) {
+  .netzwerke {
+    width: 100px;
+    height: auto; }
+
+  .loginForm {
+    left: 150px; } }
+
+/*# sourceMappingURL=index.css.map */
