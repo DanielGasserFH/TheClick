@@ -54,3 +54,11 @@ th, td {
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
+
+.btn{
+    margin: auto;
+    padding: auto;
+    margin-top: auto;
+    margin-top: auto;
+    margin-left: auto;
+}
