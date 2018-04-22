@@ -1,0 +1,56 @@
+body{
+    background-color: yellowgreen;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.col-sm-8{
+    background-color: white;
+    margin: auto;
+    padding: auto;
+    height: 500px;
+}
+
+.scoreboard{
+    background-color: blueviolet;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
